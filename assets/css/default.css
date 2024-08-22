@@ -654,42 +654,7 @@
 .f-500{font-weight: 500;}
 .f-400{font-weight: 400;}
 .f-300{font-weight: 300;}
-/* Background Color */
-.gray-bg {
-	background: #f8f7fc;
-}
-.white-bg {
-	background: #fff;
-}
-.black-bg {
-	background: #222;
-}
-.theme-bg {
-	background: #e83a15;
-}
-.primary-bg {
-	background: #2871fb;
-}
-.read-bg{
-	background:#ef4416; 
-}
-.blue-bg{
-	background: #2871fb;
-}
 
-/* Color */
-.white-color {
-	color: #fff;
-}
-.black-color {
-	color: #222;
-}
-.theme-color {
-	color: #e83a15;
-}
-.primary-color {
-	color: #2871fb;
-}
 /* black overlay */
 
 [data-overlay] {
