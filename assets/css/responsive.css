@@ -1,181 +1,28 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-.screenshot-area {
-	padding-bottom: 155px;
-}
+ 
 }
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-.header-area.sticky {
+  .header-area.sticky {
     padding: 15px 0;
     padding-bottom: 0;
-}
-.header-right {
-	margin-right: 80px;
-}
-.screenshot-active {
-	padding: 0 0;
-}
-.screenshot-area {
-	padding-bottom: 150px;
-}
-.screens {
-	padding: 0 0;
-}
-.footer-widget {
-	padding-left: 0;
-}
-.tagcloud {
-	padding-right: 0;
-}
-.image-block img {
-	max-width: 390px;
-}
+  }
 }
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-.header-area.sticky {
+  .header-area.sticky {
     padding: 15px 0;
     padding-bottom: 0;
-}
-.header-right {
-    margin-right: 80px;
-}
-.slider-height {
-	min-height: 600px;
-}
-.single-counter p::after {
-	display: none;
-}
-.screens {
-	padding: 0 0;
-}
-.contact-form {
-	padding-left: 60px;
-}
-.contact-us {
-	margin-bottom: 30px;
-}
-.footer-widget {
-	padding-left: 0;
-}
-.screenshot-area {
-	padding-bottom: 145px;
-}
-.screenshot-active {
-	padding: 0;
-}
-.faq-area{
-	padding-bottom: 210px;
-}
+  }
 }
 /* small mobile :320px. */
 @media (max-width: 767px) {
-.header-area.sticky {
-	padding: 15px;
-	padding-bottom: 0;
-}
-.mean-container a.meanmenu-reveal {
-	margin-top: -38px;
-}
-.slider-height {
-	min-height: 720px;
-}
-.slider-height {
-	min-height: 720px;
-}
-.slider-content h2 {
-	font-size: 42px;
-}
-.single-counter p::after{
-	display: none;
-}
-.faq-accordion .btn-link {
-	font-size: 14px;
-	padding: 0 5px;
-}
-.faq-accordion .btn-link::after{
-	display: none;
-}
-.screenshot-active {
-	padding: 0;
-}
-.contact-us {
-	margin-bottom: 30px;
-	padding-left: 30px;
-}
-.contact-form {
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.footer-widget {
-	padding-left: 0;
-}
-.page-header {
-	padding-top: 150px;
-	padding-bottom: 100px;
-}
-.section-header h2 {
-	font-size: 35px;
-}
-.entry-content .blog-title {
-	padding-right: 0;
-}
-.social-share {
-	float: left;
-}
-.tagcloud {
-	padding-right: 0;
-}
-.screens {
-	padding: 0 0;
-}
-.screenshot-item img {
-	padding: 0;
-}
-.screenshot-area {
-	padding-bottom: 120px;
-}
-.faq-images {
-	display: none;
-}
-.faq-accordion .card-body {
-	padding: 15px;
-}
-.image-block img {
-	width: 100%;
-}
-.image-block .image-two {
-	display: none;
-}
-.image-block .image-three {
-	display: none;
-}
-.image-block .image-four {
-	margin-left: 0;
-}
-.video-btn.popup-video {
-	margin-top: 30px;
-}
-.screenshot-frame img {
-	display: none;
-}
-.screenshot-active.owl-carousel .owl-nav div {
-	height: 40px;
-	line-height: 40px;
-	width: 40px;
-
+  .header-area.sticky {
+    padding: 15px;
+    padding-bottom: 0;
+  }
 }
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
 }
-
-নিজেদের মধ্যে ঐক্য গড়ে তুলতে হবে ,,, তা না হলে কিছু দিন পর নিজেদের অস্তিত্ব বিলুপ্ত হয়ে যাবে!!
-
-পুলিশ: তুই ধর্ষণ করলি কেন
-ধর্ষক: আমি ধর্ষণ করি নাই
-আমার নুনু হ্যাক হয়ছে
-
-ভোলা ফ্যাক্ট 😠😠
