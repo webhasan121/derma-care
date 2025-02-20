@@ -1,6 +1,16 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
- 
+  .author-experience {
+    width: 240px;
+    height: 97px;
+  }
+  .author-experience.approach-action {
+    height: 129px;
+    width: 242px;
+  }
+  .author-experience.approach-action .experience {
+    padding: 5px 14px;
+  }
 }
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
