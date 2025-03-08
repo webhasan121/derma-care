@@ -70,7 +70,7 @@
     #e7faf9,
     #eafbf6,
     #effcf3
-  );;
+  );
 }
 
 body {
@@ -560,7 +560,6 @@ label {
   width: 100%;
   border-radius: 50%;
   transform: translateX(-50%) translateY(-50%);
-
 }
 .phone-icon:before {
   animation: pulse-border 1.5s ease-out infinite;
@@ -830,7 +829,8 @@ label {
   background: var(--dm-clr-theme-1);
   border-radius: 50%;
   text-align: center;
-  color: #fff;
+  color: var(--dm-clr-common-white);
+  line-height: 25px;
 }
 .view-authors img {
   width: 40px;
@@ -868,7 +868,7 @@ label {
   margin-top: -2px;
 }
 .rating-icon {
-  margin-top: -2px;
+  margin-top: -5px;
 }
 .author-experience .year-count {
   font-size: 40px;
@@ -928,8 +928,8 @@ label {
 }
 /* Approach */
 .author-experience.approach-action .experience {
-	line-height: 20px;
-	padding: 20px 14px;
+  line-height: 20px;
+  padding: 20px 14px;
 }
 .author-experience.approach-action {
   height: 150px;
@@ -1029,8 +1029,8 @@ label {
   background-image: var(--dm-liner-theme);
 }
 .testimonial-thumb {
-    min-width: 220px;
-    width: 220px;
+  min-width: 220px;
+  width: 220px;
 }
 .testimonial-info {
   padding: 12px;
@@ -1061,10 +1061,58 @@ label {
   align-items: center;
   justify-content: center;
 }
-
-
-.testimonial-thumb img{
+.testimonial-media img {
   border-top-left-radius: 30px;
+}
+.testimonial-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.testimonial-slider-active .owl-dots {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.testimonial-slider-active .owl-dots .owl-dot {
+  height: 12px;
+  width: 12px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+.testimonial-slider-active .owl-dots .owl-dot.active {
+  background: var(--dm-clr-theme-1);
+  height: 15px;
+  width: 15px;
+}
+.testimonial-btn {
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonial-right::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background: var(--dm-clr-theme-1);
+  will-change: border-radius, transform, opacity;
+  animation: dancingShape 5s linear infinite;
+  display: block;
+  z-index: -1;
+  -webkit-animation: dancingShape 5s linear infinite;
+  border-radius: 50%;
 }
 /* .testimonial-main {
   padding: 0 100px;
@@ -1098,13 +1146,18 @@ label {
   width: 15px;
 } */
 /* blog */
-.blog-sub span {
-  color: var(--dm-clr-common-black);
+.blog-category, .blog-date, .blog-auth-name {
   font-size: 14px;
-  opacity: 60%;
+  color: var(--dm-clr-theme-8);
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.blog-category a {
-  color: inherit;
+.blog-category a, .blog-auth-name a {
+  color: var(--dm-clr-theme-8);
+  text-transform: uppercase;
+}
+.blog-category a:hover, .blog-auth-name a:hover {
+  color: var(--dm-clr-theme-1);
 }
 .blog-sub {
   display: flex;
@@ -1118,12 +1171,12 @@ label {
 .blog-sub .separate:before {
   position: absolute;
   content: "";
-  background: var(--dm-clr-common-black);
-  height: 5px;
-  width: 5px;
+  background: var(--dm-clr-theme-1);
+  height: 6px;
+  width: 6px;
   border-radius: 50%;
   left: 0;
-  top: -1px;
+  top: -3px;
 }
 .blog-content h5 {
   line-height: 28px;
@@ -1133,14 +1186,35 @@ label {
 .blog-content p {
   margin-bottom: 15px;
 }
-
-.author-content h6 {
+.read-more {
+  position: relative;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.read-more:hover {
+  color: var(--dm-clr-theme-3);
+}
+.read-more:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--dm-clr-theme-3);
+  transition: all ease 0.4s;
+}
+.read-more:hover::before {
+  width: 100%;
+}
+/* .author-content h6 {
   font-size: 16px;
   margin-bottom: -2px;
 }
 .author-content span {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
 }
 .blog-author-info img {
   float: left;
@@ -1148,7 +1222,7 @@ label {
 .author-content {
   padding-left: 20px;
   padding-top: 5px;
-}
+} */
 /* contact */
 .contact-form-wrapper h3 {
   font-size: 42px;
@@ -1289,8 +1363,6 @@ label {
   color: var(--dm-clr-common-white);
 }
 
-
-
 .main-services-container {
   position: relative;
   width: 100%;
@@ -1327,7 +1399,7 @@ label {
   left: 50%;
   width: 50px;
   height: 50px;
-  background:var(--dm-clr-common-white);
+  background: var(--dm-clr-common-white);
   border-radius: 50%;
   display: flex;
   align-items: center;
